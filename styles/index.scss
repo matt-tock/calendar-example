@@ -1,0 +1,23 @@
+@import "reset";
+
+:root {
+  font: 62.5% Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  line-height: 1.5;
+}

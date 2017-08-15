@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^4.15.4",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "next": "^3.0.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styletron": "^2.5.7",
+    "styletron-react": "^2.5.8"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "node-sass": "^4.5.3",
+    "postcss-easy-import": "^2.1.0",
+    "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "wrap-in-js",
+      {
+        "extensions": ["css$", "scss$"]
+      }
+    ],
+    "lodash"
+  ],
+  "presets": [
+    "next/babel"
+  ],
+  "ignore": []
+}
